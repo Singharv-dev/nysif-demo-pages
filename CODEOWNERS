@@ -16,7 +16,7 @@ LICENSE @license-owner
 
 # Specify the owners for specific file types
 *.js    @js-owner
-*.py    @python-owner
+*.py    @python-owner @CALBAR-DEVOPS-TEAM
 
 # Specify the owners for specific subdirectories
 /src/components/ @components-team
