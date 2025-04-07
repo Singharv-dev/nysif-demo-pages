@@ -1,0 +1,27 @@
+# This is a sample CODEOWNERS file.
+
+# Each line is a pattern followed by one or more owners.
+# The owners can be GitHub usernames or team names.
+
+# Specify the owners for the entire repository
+*       @global-owner1 @global-owner2
+
+# Specify the owners for specific directories
+/docs/  @docs-team
+/scripts/ @scripts-owner
+
+# Specify the owners for specific files
+README.md @readme-owner
+LICENSE @license-owner
+
+# Specify the owners for specific file types
+*.js    @js-owner
+*.py    @python-owner
+
+# Specify the owners for specific subdirectories
+/src/components/ @components-team
+/src/utils/ @utils-owner
+
+# Specify the owners for specific files within subdirectories
+/src/components/Button.js @button-owner
+/src/utils/helpers.py @helpers-owner
